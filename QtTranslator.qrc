@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/QtTranslator">
+    <file>Resources/help.png</file>
+    <file>Resources/hexmatter.png</file>
+    <file>Resources/Logo.png</file>
+    <file>Resources/generate_manual.png</file>
+    <file>Resources/generate_translatable.png</file>
+    <file>Resources/update_ts.png</file>
+    <file>Resources/change.png</file>
+    <file>Resources/save.png</file>
+  </qresource>
+</RCC>
