@@ -9,26 +9,26 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    AboutWnd.cpp \
-    ChangeLanguage.cpp \
-    FileIO.cpp \
-    HowToUseWnd.cpp \
-    QtTranslator.cpp \
-    main.cpp
+    src/AboutWnd.cpp \
+    src/ChangeLanguage.cpp \
+    src/FileIO.cpp \
+    src/HowToUseWnd.cpp \
+    src/QtTranslator.cpp \
+    src/main.cpp
 
 HEADERS += \
-    AboutWnd.h \
-    ChangeLanguage.h \
-    FileIO.h \
-    HowToUseWnd.h \
-    QtTranslator.h \
-    version.h
+    src/AboutWnd.h \
+    src/ChangeLanguage.h \
+    src/FileIO.h \
+    src/HowToUseWnd.h \
+    src/QtTranslator.h \
+    src/version.h
 
 FORMS += \
-    About.ui \
-    ChangeLanguageWnd.ui \
-    HowToUseWnd.ui \
-    QtTranslator.ui
+    ui/About.ui \
+    ui/ChangeLanguageWnd.ui \
+    ui/HowToUseWnd.ui \
+    ui/QtTranslator.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
