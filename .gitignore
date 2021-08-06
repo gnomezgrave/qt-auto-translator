@@ -1,3 +1,5 @@
 Debug/
 GeneratedFiles/
 Release/
+*.user
+.DS_Store
